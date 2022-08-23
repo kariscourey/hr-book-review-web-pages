@@ -9,6 +9,8 @@ body{
 .book-cover{
     width:200px;
     height:auto;
+    display:grid;
+    grid-row: 1 / 4;
 }
 
 .book-rating{
@@ -32,6 +34,9 @@ button{
 
 header{
     padding:12px;
+    display:grid;
+    grid-template-columns: auto 1fr; /*because one row and two columns*/
+    column-gap:24px;
 }
 
 html{
@@ -49,6 +54,10 @@ footer{
     background-color: burlywood;
     margin-top:24px;
     padding:24px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    align-items: center;
 }
 
 main{
@@ -60,6 +69,9 @@ main{
     color:white;
     border:1px solid lightblue;
     padding:24px;
+    display:grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 24px;
 }
 
 textarea{
