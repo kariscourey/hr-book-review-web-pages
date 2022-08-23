@@ -1,0 +1,70 @@
+body{
+    margin:0;
+}
+
+.book-authors{
+    color:dimgray;
+}
+
+.book-cover{
+    width:200px;
+    height:auto;
+}
+
+.book-rating{
+    font-size:125%;
+}
+
+.book-review-form{
+    background-color:white;
+    padding:24px;
+}
+
+.book-title{
+    font-weight:bold;
+    font-size:150%;
+}
+
+button{
+    padding:12px;
+    font-size:110%;
+}
+
+header{
+    padding:12px;
+}
+
+html{
+    background-color:beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    border:1px solid darkgray;
+    border-radius: 4px;
+    padding:12px;
+}
+
+footer{
+    background-color: burlywood;
+    margin-top:24px;
+    padding:24px;
+}
+
+main{
+    max-width:800px;
+    margin:auto;
+}
+
+.main-page-book-review{
+    color:white;
+    border:1px solid lightblue;
+    padding:24px;
+}
+
+textarea{
+    border:1px solid darkgray;
+    border-radius:4px;
+    padding:12px;
+    height:100px;
+}
